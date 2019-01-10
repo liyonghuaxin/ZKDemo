@@ -48,6 +48,7 @@
 		043C0AB22196BC5100137E6B /* UISearchBar+JKBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 043C0A942196BC5100137E6B /* UISearchBar+JKBlocks.m */; };
 		043C0AB32196BC5100137E6B /* UITextField+JKInputLimit.m in Sources */ = {isa = PBXBuildFile; fileRef = 043C0A992196BC5100137E6B /* UITextField+JKInputLimit.m */; };
 		043C0AB42196BC5100137E6B /* UITextField+JKBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 043C0A9A2196BC5100137E6B /* UITextField+JKBlocks.m */; };
+		043DE7EB21E70DED007BED37 /* UIView+NoData.m in Sources */ = {isa = PBXBuildFile; fileRef = 043DE7EA21E70DED007BED37 /* UIView+NoData.m */; };
 		0448D66721ACE0020099E555 /* DatabaseTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0448D66621ACE0020099E555 /* DatabaseTestVC.m */; };
 		0448D67321AD2D750099E555 /* JQFMDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 0448D67221AD2D750099E555 /* JQFMDB.m */; };
 		0448D67621AD2EFE0099E555 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0448D67421AD2EFE0099E555 /* Person.m */; };
@@ -167,6 +168,8 @@
 		043C0A982196BC5100137E6B /* UITextField+JKBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+JKBlocks.h"; sourceTree = "<group>"; };
 		043C0A992196BC5100137E6B /* UITextField+JKInputLimit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+JKInputLimit.m"; sourceTree = "<group>"; };
 		043C0A9A2196BC5100137E6B /* UITextField+JKBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+JKBlocks.m"; sourceTree = "<group>"; };
+		043DE7E921E70DED007BED37 /* UIView+NoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NoData.h"; sourceTree = "<group>"; };
+		043DE7EA21E70DED007BED37 /* UIView+NoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NoData.m"; sourceTree = "<group>"; };
 		0448D66521ACE0020099E555 /* DatabaseTestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatabaseTestVC.h; sourceTree = "<group>"; };
 		0448D66621ACE0020099E555 /* DatabaseTestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatabaseTestVC.m; sourceTree = "<group>"; };
 		0448D67121AD2D750099E555 /* JQFMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQFMDB.h; sourceTree = "<group>"; };
@@ -307,6 +310,7 @@
 		043C0A3321967BD000137E6B /* UIComponent */ = {
 			isa = PBXGroup;
 			children = (
+				043DE7E821E70DED007BED37 /* NoData */,
 				043C0A532196B52300137E6B /* YCMenuView */,
 			);
 			path = UIComponent;
@@ -563,6 +567,15 @@
 				043C0A9A2196BC5100137E6B /* UITextField+JKBlocks.m */,
 			);
 			path = UITextField;
+			sourceTree = "<group>";
+		};
+		043DE7E821E70DED007BED37 /* NoData */ = {
+			isa = PBXGroup;
+			children = (
+				043DE7E921E70DED007BED37 /* UIView+NoData.h */,
+				043DE7EA21E70DED007BED37 /* UIView+NoData.m */,
+			);
+			path = NoData;
 			sourceTree = "<group>";
 		};
 		0448D66421ACDFD70099E555 /* DatabaseTest */ = {
@@ -841,6 +854,7 @@
 				04F4B10C21A40B3800AE565A /* AppDelegate+Test.m in Sources */,
 				043C0AAD2196BC5100137E6B /* UITextView+JKPlaceHolder.m in Sources */,
 				043C0A5B2196B73500137E6B /* YCMenuVC.m in Sources */,
+				043DE7EB21E70DED007BED37 /* UIView+NoData.m in Sources */,
 				043C0A562196B53A00137E6B /* YCMenuView.m in Sources */,
 				0448D67321AD2D750099E555 /* JQFMDB.m in Sources */,
 				043C0AAC2196BC5100137E6B /* UITextView+JKSelect.m in Sources */,
