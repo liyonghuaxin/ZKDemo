@@ -1,0 +1,26 @@
+target 'ZKDemo' do
+
+    pod 'Masonry'
+    pod 'FMDB'
+    pod 'AFNetworking'
+    pod 'CYLTabBarController'
+    pod 'IQKeyboardManager'
+    pod 'YYText'
+    pod 'YYWebImage'
+    pod 'FDFullscreenPopGesture'
+    pod 'MGJRouter'
+    pod 'TZImagePickerController'
+    pod 'SDCycleScrollView'
+    pod 'WMPageController'
+    pod 'AMapLocation'
+    pod 'LBXScan/LBXNative'
+    pod 'WeexSDK'
+    pod 'MBProgressHUD'
+    
+    pod 'CocoaAsyncSocket'
+    
+    ######## DEBUG 工具########
+    pod 'MLeaksFinder'#内存泄露检测
+    pod 'FBRetainCycleDetector'
+    pod 'WXDevtool'#weex开发调试工具
+end
